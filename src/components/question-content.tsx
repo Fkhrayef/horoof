@@ -4,6 +4,9 @@ import { useQuestionContext } from "@/lib/hooks";
 
 export default function QuestionContent() {
   const { selectedQuestion, answerNumOfLetters } = useQuestionContext();
+  const hint = selectedQuestion?.hint
+    ? selectedQuestion.hint
+    : `عدد الاحرف: ${answerNumOfLetters}`;
   return (
     <section className="mt-1">
       {!selectedQuestion ? (
@@ -21,7 +24,7 @@ export default function QuestionContent() {
             </div>
             <div className="space-y-1">
               <p className="text-sm">:تلميح</p>
-              <p className="font-black text-md">{selectedQuestion?.hint}</p>
+              <p className="font-black text-md">{hint}</p>
             </div>
           </div>
         </>

@@ -31,6 +31,7 @@ import { useQuestionContext } from "@/lib/hooks";
 
 export default function FilterForm() {
   const { handleChangeSelectedQuestion } = useQuestionContext();
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const [selectedCategories, setSelectedCategories] =
     useState<string[]>(CATEGORIES);
@@ -64,6 +65,7 @@ export default function FilterForm() {
   });
 
   const handleSubmit = async (values: z.infer<typeof formSchema>) => {
+    setIsSubmitting(true);
     const { data, message } = await getQuestion(values);
     if (message) {
       toast.warning(message);
@@ -74,6 +76,7 @@ export default function FilterForm() {
       return;
     }
     handleChangeSelectedQuestion(data.id);
+    setIsSubmitting(false);
   };
 
   return (
@@ -231,7 +234,7 @@ export default function FilterForm() {
             );
           }}
         />
-        <FilterFormBtn />
+        <FilterFormBtn isSubmitting={isSubmitting} />
       </form>
     </Form>
   );
