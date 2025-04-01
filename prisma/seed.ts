@@ -25,7 +25,7 @@ const questions = [
   {
     question: "من هو مؤسس الدولة العباسية؟",
     answer: "أبو العباس",
-    answerFirstLetter: "أ",
+    answerFirstLetter: "ا",
     difficulty: "صعب",
     category: "تاريخ",
     hint: "لقب بالسفاح",
@@ -192,24 +192,6 @@ const questions = [
     hint: "عاصمة دولة إسكندنافية",
     answered: true,
   },
-  {
-    question: "ما هي عاصمة فنلندا؟",
-    answer: "هلسنكي",
-    answerFirstLetter: "ه",
-    difficulty: "صعب",
-    category: "جغرافيا",
-    hint: "عاصمة دولة إسكندنافية",
-    answered: true,
-  },
-  {
-    question: "ما هي عاصمة الدنمارك؟",
-    answer: "كوبنهاجن",
-    answerFirstLetter: "ك",
-    difficulty: "صعب",
-    category: "جغرافيا",
-    hint: "عاصمة دولة إسكندنافية",
-    answered: true,
-  },
 
   // Literature Questions (5%)
   {
@@ -248,15 +230,6 @@ const questions = [
     difficulty: "سهل",
     category: "دين",
     hint: "أول سورة في القرآن",
-    answered: true,
-  },
-  {
-    question: "من هو الصحابي الذي لقب بذي النورين؟",
-    answer: "عثمان بن عفان",
-    answerFirstLetter: "ع",
-    difficulty: "صعب",
-    category: "دين",
-    hint: "ثالث الخلفاء الراشدين",
     answered: true,
   },
   {
@@ -438,15 +411,6 @@ const questions = [
     answered: true,
   },
   // Additional Geography Questions
-  {
-    question: "ما هي عاصمة السويد؟",
-    answer: "ستوكهولم",
-    answerFirstLetter: "س",
-    difficulty: "صعب",
-    category: "جغرافيا",
-    hint: "عاصمة دولة إسكندنافية",
-    answered: true,
-  },
   {
     question: "ما هي عاصمة فنلندا؟",
     answer: "هلسنكي",
@@ -1331,7 +1295,7 @@ const questions = [
   // حرف الشين
   {
     question: "ما اسم السبت قبل الإسلام؟",
-    answer: "شبار",
+    answer: "شيار",
     answerFirstLetter: "ش",
     difficulty: "صعب",
     category: "تاريخ",
@@ -1556,7 +1520,7 @@ const questions = [
   {
     question: "ما هو اسم المفاعل النووي الإسرائيلي؟",
     answer: "ديمونا",
-    answerFirstLetter: "ظ",
+    answerFirstLetter: "د",
     difficulty: "صعب",
     category: "علوم",
     hint: "يقع في صحراء النقب",
@@ -1835,15 +1799,6 @@ const questions = [
     hint: "يصيب خلايا الدم البيضاء",
     answered: true,
   },
-  {
-    question: "ما هو من مكونات السيجارة الضارة؟",
-    answer: "نيكوتين",
-    answerFirstLetter: "ل",
-    difficulty: "سهل",
-    category: "علوم",
-    hint: "مادة تسبب الإدمان",
-    answered: true,
-  },
 
   // حرف الميم
   {
@@ -1929,39 +1884,21 @@ const questions = [
     hint: "تقع في غرب أفريقيا",
     answered: true,
   },
-  {
-    question: "ما هي عاصمة كينيا؟",
-    answer: "نيروبي",
-    answerFirstLetter: "ن",
-    difficulty: "سهل",
-    category: "جغرافيا",
-    hint: "تشتهر بحديقة الحيوانات",
-    answered: true,
-  },
 
   // حرف الهاء
   {
     question: "ما هو اسم والد النبي محمد صلى الله عليه وسلم؟",
     answer: "عبد الله",
-    answerFirstLetter: "ه",
+    answerFirstLetter: "ع",
     difficulty: "سهل",
     category: "دين",
     hint: "ابن عبد المطلب",
     answered: true,
   },
   {
-    question: "ما هي السورة التي تسمى قلب القرآن؟",
-    answer: "يس",
-    answerFirstLetter: "ه",
-    difficulty: "متوسط",
-    category: "دين",
-    hint: "تبدأ بالحروف المقطعة",
-    answered: true,
-  },
-  {
     question: "ما هو الحيوان الذي أماته الله ثم أحياه؟",
     answer: "الحمار",
-    answerFirstLetter: "ه",
+    answerFirstLetter: "ح",
     difficulty: "صعب",
     category: "دين",
     hint: "ذكر في قصة عزير",
@@ -1970,7 +1907,7 @@ const questions = [
   {
     question: "ما هي عاصمة دولة قطر؟",
     answer: "الدوحة",
-    answerFirstLetter: "ه",
+    answerFirstLetter: "د",
     difficulty: "سهل",
     category: "جغرافيا",
     hint: "تطل على الخليج العربي",
@@ -1979,7 +1916,7 @@ const questions = [
   {
     question: "ما هو اسم الشهر الثالث في التقويم الهجري؟",
     answer: "ربيع الاول",
-    answerFirstLetter: "ه",
+    answerFirstLetter: "ر",
     difficulty: "سهل",
     category: "أسئلة عامة",
     hint: "ولد فيه النبي صلى الله عليه وسلم",
@@ -1987,15 +1924,6 @@ const questions = [
   },
 
   // حرف الواو
-  {
-    question: "ما هي السورة التي تسمى أخت الطويلتين؟",
-    answer: "الاعراف",
-    answerFirstLetter: "و",
-    difficulty: "متوسط",
-    category: "دين",
-    hint: "تقع بين سورتي الأنعام والأنفال",
-    answered: true,
-  },
   {
     question: "ما هو اسم الصحابي الملقب بذي النورين؟",
     answer: "عثمان بن عفان",
@@ -2008,7 +1936,7 @@ const questions = [
   {
     question: "ما هي أعظم آية في القرآن؟",
     answer: "اية الكرسي",
-    answerFirstLetter: "و",
+    answerFirstLetter: "ك",
     difficulty: "سهل",
     category: "دين",
     hint: "في سورة البقرة",
@@ -2026,7 +1954,7 @@ const questions = [
   {
     question: "ما هي اللغة الرسمية في النمسا؟",
     answer: "الالمانية",
-    answerFirstLetter: "و",
+    answerFirstLetter: "ا",
     difficulty: "سهل",
     category: "جغرافيا",
     hint: "يتحدثها أيضاً سكان ألمانيا",
@@ -2037,7 +1965,7 @@ const questions = [
   {
     question: "ما هي السورة التي لم تبدأ بالبسملة؟",
     answer: "التوبة",
-    answerFirstLetter: "ي",
+    answerFirstLetter: "ت",
     difficulty: "سهل",
     category: "دين",
     hint: "السورة التاسعة في المصحف",
@@ -2055,7 +1983,7 @@ const questions = [
   {
     question: "ما هي المدينة التي لا يدخلها الطاعون؟",
     answer: "المدينة المنورة",
-    answerFirstLetter: "ي",
+    answerFirstLetter: "م",
     difficulty: "سهل",
     category: "دين",
     hint: "ذكر في الحديث النبوي",
@@ -2064,7 +1992,7 @@ const questions = [
   {
     question: "ما هي عاصمة اليمن؟",
     answer: "صنعاء",
-    answerFirstLetter: "ي",
+    answerFirstLetter: "ص",
     difficulty: "سهل",
     category: "جغرافيا",
     hint: "من أقدم المدن المأهولة",
@@ -2073,7 +2001,7 @@ const questions = [
   {
     question: "ما هو البحر الذي يفصل بين تركيا واليونان؟",
     answer: "ايجه",
-    answerFirstLetter: "ي",
+    answerFirstLetter: "ا",
     difficulty: "متوسط",
     category: "جغرافيا",
     hint: "يحتوي على العديد من الجزر",
