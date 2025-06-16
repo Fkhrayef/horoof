@@ -23,7 +23,7 @@ export default function Header() {
     <header className="flex justify-between items-center border-b border-white/10 py-2">
       <div className="flex space-x-4 items-center">
         <Logo />
-        <ModeToggle />s
+        <ModeToggle />
       </div>
 
       <nav>
